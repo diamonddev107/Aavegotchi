@@ -9,7 +9,6 @@ import {IERC20} from "../../shared/interfaces/IERC20.sol";
 import {LibMeta} from "../../shared/libraries/LibMeta.sol";
 import {LibERC721} from "../../shared/libraries/LibERC721.sol";
 
-// import "hardhat/console.sol";
 
 contract CollateralFacet is Modifiers {
     event IncreaseStake(uint256 indexed _tokenId, uint256 _stakeAmount);
